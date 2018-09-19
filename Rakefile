@@ -11,7 +11,7 @@ namespace :greeting do
 end
 
 task :environment do
-  require_relative './config/enviroment'
+  require_relative './config/environment'
 end
 
 namespace :db do
